@@ -9,6 +9,6 @@
     <Param name="q" value="{searchTerms}"/>
   </Url>
   <Url type="application/x-suggestions+json" template="https://duckduckgo.com/ac/?q={searchTerms}&amp;type=list"/>
-  <Image height="32" width="32">https://duckduckgo.com/favicon.ico</Image>
+  <Image height="16" width="16">https://duckduckgo.com/favicon.ico</Image>
   <moz:SearchForm>https://duckduckgo.com/</moz:SearchForm>
 </OpenSearchDescription>
