@@ -1,0 +1,22 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Google</ShortName>
+  <Description>Google Search</Description>
+  <image height="16" type="image/icon" width="16"
+    >http://www.google.com/favicon.ico</image
+  >
+  <Url
+    rel="self"
+    template="https://www.google.com/searchdomaincheck?format=opensearch"
+    type="application/opensearchdescription+xml"
+  />
+  <Url
+    template="http://clients5.google.com/complete/search?q={searchTerms}&amp;inputencoding={inputEncoding}&amp;outputencoding={outputEncoding}"
+    rel="suggestions"
+    type="application/x-suggestions+json"
+  />
+  <Url
+    template="http://www.google.com/search?q={searchTerms}&amp;ie={inputEncoding?}&amp;oe={outputEncoding?}"
+    type="text/html"
+    xmlns:referrer="http://a9.com/-/opensearch/extensions/referrer/1.0/"
+  />
+</OpenSearchDescription>
