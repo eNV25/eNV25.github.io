@@ -1,6 +1,6 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-  <ShortName>Google</ShortName>
-  <Description>Google Search</Description>
+  <ShortName>!Google</ShortName>
+  <Description>!Google Search</Description>
   <image height="16" type="image/icon" width="16"
     >http://www.google.com/favicon.ico</image
   >
