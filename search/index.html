@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+  <link rel="search" type="application/opensearchdescription+xml" title="Google with Bangs" href="/search/opensearchdescription.xml">
+</head>
+<body>
+  <script>
+    const url = new URL(location.href);
+
+    if (url.searchParams.get('q').charAt(0) == '!') {
+      location.host = 'search.brave.com';
+    } else {
+      location.host = 'google.com';
+    }
+  </script>
+</body>
