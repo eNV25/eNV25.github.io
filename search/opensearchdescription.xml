@@ -4,7 +4,7 @@
   <Description>Google Search with Bangs</Description>
   <Image height="16" type="image/icon" width="16">https://www.google.com/favicon.ico</Image>
   <Url rel="self" template="https://env25.github.io/search/opensearchdescription.xml" type="application/opensearchdescription+xml"/>
-  <Url template="https://www.google.com/complete/search?q={searchTerms}&amp;inputencoding={inputEncoding}&amp;outputencoding={outputEncoding}" rel="suggestions" type="application/x-suggestions+json"/>
+  <Url template="https://www.google.com/complete/search?client=firefox&amp;q={searchTerms}" rel="suggestions" type="application/x-suggestions+json"/>
   <Url xmlns:referrer="http://a9.com/-/opensearch/extensions/referrer/1.0/" template="https://env25.github.io/search?q={searchTerms}" type="text/html"/>
   <moz:SearchForm>https://www.google.com/</moz:SearchForm>
 </OpenSearchDescription>
