@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <head>
-  <link rel="search" type="application/opensearchdescription+xml" title="Google with Bangs" href="/search/opensearchdescription.xml">
+  <meta http-equiv="Cache-Control" content="max-age=31536000"/>
+  <link rel="search" type="application/opensearchdescription+xml" title="Google with Bangs" href="/search/opensearchdescription.xml"/>
   <script>
     const url = new URL(location.href);
 
     if (url.searchParams.get('q').trim().charAt(0) == '!') {
+      location.search += '&lr=lang_en';
       location.host = 'search.brave.com';
     } else {
+      location.search += '&lr=lang_en';
       location.host = 'google.com';
     }
   </script>
