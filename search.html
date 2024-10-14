@@ -5,11 +5,10 @@
   <script>
     const url = new URL(location.href);
 
+    location.search += '&lr=lang_en';
     if (url.searchParams.get('q').trim().charAt(0) == '!') {
-      location.search += '&lr=lang_en';
       location.host = 'search.brave.com';
     } else {
-      location.search += '&lr=lang_en';
       location.host = 'google.com';
     }
   </script>
